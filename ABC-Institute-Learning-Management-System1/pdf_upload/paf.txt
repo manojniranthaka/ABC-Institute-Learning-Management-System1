@@ -1,0 +1,7 @@
+functional programming 
+
+#The output of a function only depends on the inputs 
+   	-The global state of the system does not affect the result of a function 
+	-Similar inputs always provide the same output 
+
+#Execution of a function does not affect the global state of the system

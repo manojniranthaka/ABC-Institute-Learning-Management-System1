@@ -1,0 +1,217 @@
+Need of version control system
+
+Version control system is a system that records changes to a file or set of files or set of files over time so that you can recall specific versions later. For the examples in this book, you will use software source code as the files being version controlled, though in reality you can do this with nearly any type of files on a computer. if you are a graphic or web designer and want to keep every version of an image or layout (which you would most certainly want to), a VCS is a very wise thing to use. It allows you to revert selected files back to a previous state, revert the entire project back to a previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when ,and more .Using VCS also generally means that if you screw things up or lose files, you can easily recover .In addition, you get all this for very little overhead.
+
+Three Models of VCS
+
+There are three different models of version control systems out there and each one uses slightly different methods to perform essentially the same function. they are local data model, client-server model, distributed model.
+Local data model is the simplest variations of version control, and it requires that all developers have access to the same file system.
+Using the client-Server Model, developers use a single shared repository of files.it does require that all developers have access to the repository via the internet of local network. This is the model used by the subversion.
+In the Distributed model , each  developer works directly with their own local repository, and changes are shared between repositories as a separate step. This is the model used by Git  an open source software used by many of the largest software development projects.
+
+
+Difference between git and github
+
+Git is free and open source distributed version control system designed to handle everything from small   to very large projects with speed and efficiency .Git is a distributed peer-  peer version control system. Each node in the network is a peer, storing entire repositories which can also act as a multi-node distributed back-ups. There is no specific concept of a central server although nodes can be head-less or ‘bare’, taking on a role similar to the central server in centralized version control systems.
+
+Github is a web-based git repository hosting service ,which offers aa of the distributed revision control and source code management (SCM) functionality of git as well as adding its own features. Github provides access control and several collaboration features such as wikis, task management, and bug tracking and feature requests for every project .we don’t need github to use git.
+
+Compare and contrast the Git commands, commit and push
+
+Since git is a distributed version control system ,the difference is that commit will commit changes to your local repository, whereas , push will push changes up to a remote repo git commitment record your changes to the local repository. git push update the remote repository with your local   changes. 
+
+
+use of staging area and Git directory
+
+Git doesn’t have a dedicated staging directory where it puts some objects representing file changes (blobs) .instead ,has a file called the index that it uses to keep track of the file changes over the three areas: working directory, staging area and repository.
+
+collaboration workflow of Git,
+
+A Git Workflow is a recipe or recommendation for how to use Git to accomplish work in a consistent and productive manner. Git workflows encourage users to leverage Git effectively and consistently. Git offers a lot of flexibility in how users manage changes. Given Git's focus on flexibility, there is no standardized process on how to interact with Git. When working with a team on a Git managed project, it’s important to make sure the team is all in agreement on how the flow of changes will be applied. To ensure the team is on the same page, an agreed upon Git workflow should be developed or selected. There are several publicized Git workflows that may be a good fit for your team. Here, we’ll be discussing some of these workflow options.
+
+
+benefits of CDNs
+
+A Content Delivery Network (CDN) is an interconnected system of computers on the internet that provides web content rapidly to numerous users by duplicating or caching the content on multiple servers and directing the content to users on proximity. The goal of a CDN is to serve content to end-users with high availability and high performance. CDNs serve a large fraction of the Internet content today, including web objects (text, graphics, and scripts), downloadable objects (media files, software, documents), applications (e-commerce, portals), real-time streaming data on-demand streaming media, and social networks. When an end-user requests a specific web page, video or file, the server closest to that user is dynamically determined and is used to deliver the content to that user, thereby increasing the speed of delivery. Content may be replicated on hundreds or thousands of servers in order to provide identical content to as many users as possible even during peak usage. Companies which are in media, entertainment, gaming, software, online retail and many more which have digital rich content on their website and want to deliver the same to their audience quickly and reliably can use CDN. Consumers want a high-quality online experience whether they are watching a movie, streaming an event, playing a game or shopping online. Using CDNs results in an increase of performance, thus giving the end users an enhanced consumer experience. The Worldwide market for content delivery network services is estimated to reach nearly US $6.9 billion in 2017.
+1. Your Server Load will decrease:
+As a result of, strategically placed servers which form the backbone of the network the companies can have an increase in capacity and number of concurrent users that they can handle. Essentially, the content is spread out across several servers, as opposed to offloading them onto one large server.
+2. Content Delivery will become faster:
+Due to higher reliability, operators can deliver high-quality content with a high level of service, low network server loads, and thus, lower costs. Moreover, jQuery is ubiquitous on the web. There’s a high probability that someone visiting a particular page has already done that in the past using the Google CDN. Therefore, the file has already been cached by the browser and the user won’t need to download again.
+3. Segmenting your audience becomes easy:
+CDNs can deliver different content to different users depending on the kind of device requesting the content. They are capable of detecting the type of mobile devices and can deliver a device-specific version of the content.
+4. Lower Network Latency and packet loss:
+End users experience less jitter and improved stream quality. CDN users can, therefore, 
+
+
+deliver high definition content with high Quality of Service, low costs, and low network load.
+5. Higher Availability and better usage analytics:
+CDNs dynamically distribute assets to the strategically placed core, fallback, and edge servers. CDNs can give more control of asset delivery and network load. They can optimize capacity per customer, provide views of real-time load and statistics, reveal which assets are popular, show active regions and report exact viewing details to customers. CDNs can thus offer 100% availability, even with large power, network or hardware outages.
+
+
+
+Difference of CDNs from other networks
+
+1.	Web Hosting is used to host your website on a server and let users access it over the internet. A content delivery network is about speeding up the access/delivery of your website’s assets to those users.
+2.	Traditional web hosting would deliver 100% of your content to the user. If they are located across the world, the user still must wait for the data to be retrieved from where your web server is located. A CDN takes a majority of your static and dynamic content and serves it from across the globe, decreasing download times. Most times, the closer the CDN server is to the web visitor, the faster assets will load for them.
+3.	Web Hosting normally refers to one server. A content delivery network refers to a global network of edge servers which distributes your content from a multi-host environment
+
+free and commercial CDNs
+Speeding up your website and content delivery should be near the top of your to-do list, with speed being a factor in ranking. A CDN (content delivery network) could help, as it will drastically reduce server lag by storing static resources on a network of fast-loading servers spread all over the world.
+Choosing a CDN to fit your specific requirements is key, so it's important to assess your budget, bandwidth needs, audience (where are the majority of your visitors based), streaming capabilities and technical support offered.
+With so many options available it can be difficult to choose one, so we've collected 13 of the best CDN providers available, that can dramatically decrease bandwidth consumption and speed up content delivery.
+
+MaxCDN
+ is a global network with SSD-loaded servers optimized for speed and the ability to create custom rules so you can determine how your CDN will run. MaxCDN's servers are located worldwide, reaching over 90 countries, with a high peer capacity to handle any given load. You can lock down your content with secure token options, and use the REST API to integrate users, zones and other resources into your applications. There are plugins available for all major systems and platforms, including WordPress, Drupal, Magento and lots more. Using the control panel, you have complete control over your domain in real-time, with built-in SSL for security. The intelligent best-path routing constantly adjusts to sustain site speed and performance.
+Pricing: Free trial and package prices available upon request
+ Amazon Cloud Front
+Amazon Cloud Front is a CDN that integrates with other Amazon web services to provide an easy way to distribute content to end users with low latency, high data transfer speeds and no commitments. You can use your own domain name and your own SSL certificate to deliver content over HTTPS, as well as track trends in data transfers and requests. With geo restriction, you can restrict content delivery to any country. Cloud Front features custom error responses, dynamic content support, live media streaming and a management console that lets you manage your Cloud Front without writing any code. You can view the access logs to learn how, when, where and to whom your content is being delivered.
+Pricing: Based on usage
+Cloud Flare
+ protects and accelerates your website, and once it's part of the Cloud Flare community, your web traffic is routed through its global network. Cloud Flare automatically optimizes the delivery of your webpages to achieve the fastest load times and best performance possible. Threats, abusive bots and crawlers are blocked from wasting your bandwidth and server resources. It's simple to set up, and only requires a change to your DNS settings, with no hardware or software to install or maintain. Cloud Flare provides analytics to give insight into all of your website's traffic including threats and search engine crawlers. The suite of apps means you can extend the capabilities of Cloud Flare on your website.
+Pricing: Free to $200 per month
+Incapsula
+ is an application-aware CDN that boosts website performance by using advanced networking, dynamic caching and content optimization techniques. It secures your website against DDos attacks, and provides load balancing and failover directly from the cloud, with real-time health and monitoring notifications. It works by routing all traffic to your website or web applications and profiles it to block threats. Outgoing traffic is then accelerated and optimized, providing on average 50% faster performance and consuming 60% less bandwidth. Incapsula only takes a few minutes to set up and activate on your website, with no hardware or software to install, and you can keep your current hosting provider. It can also be turned off and on as necessary.
+Pricing: Free to $299 per month
+
+
+
+
+
+
+
+requirements for virtualization
+
+
+·         Processor that supports Intel VT-X 
+·         Minimum 2 GB Memory (NAS reserves 1.5 GB Memory): TS-x51 series (Please note: If TS-x51 series want to run Virtualization Station, please install a significant amount of memory )
+·         Minimum 4 GB Memory (NAS reserves 2 GB Memory): TS-x70, TS-x70 Pro, TS-ECx80 Pro, TS-x70U-RP, TS-x79U-RP, TS-ECx79U-RP, TS-ECx79U-SAS-RP, SS-ECx79U-SAS-RP and TS-ECx80U-RP series
+·         Minimum 550 MB Hard disk space
+·         Minimum two Ethernet cables (Note: The network usage of Virtualization Station is separated from the Turbo NAS. One is for the Turbo NAS to use and the other is for virtual machines to use)
+·         Supported NAS series:TS-x51/TS-x51-4G, TS-x70, TS-x70 Pro, TS-x70U-RP, TS-x79U-RP, TS-ECx79U-RP, TS-ECx79U-SAS-RP, SS-ECx79U-SAS-RP, TS-ECx80 Pro and TS-ECx80U-RP, series (Please note: If you want to run the Virtualization Station on the TS-x70 and TS-x70 Pro series, please contact us.
+
+
+
+pros and cons of different virtualization techniques
+
+
+Using Virtualization for Efficient Hardware Utilization
+Virtualization decreases costs by reducing the need for physical hardware systems. Virtual machines use efficient hardware, which lowers the quantities of hardware, associated maintenance costs and reduces the power along with cooling the demand. You can allocate memory, space and CPU in just a second, making you more self-independent from hardware vendors.
+Using Virtualization to Increase Availability
+Virtualization platforms offer a number of advanced features that are not found on physical servers, which increase uptime and availability. Although the vendor feature names may be different, they usually offer capabilities such as live migration, storage migration, fault tolerance, high availability and distributed resource scheduling. These technologies keep virtual machines chugging along or give them the ability to recover from unplanned outages.
+The ability to move a virtual machine from one server to another is perhaps one of the greatest single benefits of virtualization with far reaching uses. As the technology continues to mature to the point where it can do long-distance migrations, such as being able to move a virtual machine from one data center to another no matter the network latency involved.
+Disaster Recovery
+Disaster recovery is very easy when your servers are virtualized. With up-to-date snapshots of your virtual machines, you can quickly get back up and running. An organization can more easily create an affordable replication site. If a disaster strikes in the data center or server room itself, you can always move those virtual machines elsewhere into a cloud provider. Having that level of flexibility means your disaster recovery plan will be easier to enact and will have a 99% success rate.
+Save Energy
+Moving physical servers to virtual machines and consolidating them onto far fewer physical servers’ means lowering monthly power and cooling costs in the data center. It reduces carbon footprint and helps to clean up the air we breathe. Consumers want to see companies reducing their output of pollution and taking responsibility.
+Deploying Servers too fast
+You can quickly clone an image, master template or existing virtual machine to get a server up and running within minutes. You do not have to fill out purchase orders, wait for shipping and receiving and then rack, stack, and cable a physical machine only to spend additional hours waiting for the operating system and applications to complete their installations. With virtual backup tools like Veeam, redeploying images will be so fast that your end users will hardly notice there was an issue.
+Save Space in your Server Room or Datacenter
+Imagine a simple example: you have two racks with 30 physical servers and 4 switches. By virtualizing your servers, it will help you to reduce half the space used by the physical servers. The result can be two physical servers in a rack with one switch, where each physical server holds 15 virtualized servers.
+Testing and setting up Lab Environment
+While you are testing or installing something on your servers and it crashes, do not panic, as there is no data loss. Just revert to a previous snapshot and you can move forward as if the mistake did not even happen. You can also isolate these testing environments from end users while still keeping them online. When you have completely done your work, deploy it in live.
+Shifting all your Local Infrastructure to Cloud in a day
+If you decide to shift your entire virtualized infrastructure into a cloud provider, you can do it in a day. All the hypervisors offer you tools to export your virtual servers.
+Possibility to Divide Services
+If you have a single server, holding different applications this can increase the possibility of the services to crash with each other and increasing the fail rate of the server. If you virtualize this server, you can put applications in separated environments from each other as we have discussed previously.
+Disadvantages of Virtualization
+Although you cannot find many disadvantages for virtualization, we will discuss a few prominent ones as follows -
+Extra Costs
+Maybe you have to invest in the virtualization software and possibly additional hardware might be required to make the virtualization possible. This depends on your existing network. Many businesses have sufficient capacity to accommodate the virtualization without requiring much cash. If you have an infrastructure that is more than five years old, you have to consider an initial renewal budget.
+Software Licensing
+This is becoming less of a problem as more software vendors adapt to the increased adoption of virtualization. However, it is important to check with your vendors to understand how they view software use in a virtualized environment.
+Learn the new Infrastructure
+Implementing and managing a virtualized environment will require IT staff with expertise in virtualization. On the user side, a typical virtual environment will operate similarly to the non-virtual environment. There are some applications that do not adapt well to the virtualized environment.
+
+
+
+
+
+popular implementations and available tools for each level of visualization
+
+There are  7 Best Data Visualization Tools Available Today.
+
+
+
+Tableau
+Tableau is often regarded as the grand master of data visualization software and for good reason. Tableau has a very large customer base of 57,000+accounts across many industries due to its simplicity of use and ability to produce interactive visualizations far beyond those provided by general BI solutions. It is particularly well suited to handling the huge and very fast-changing datasets which are used in Big Data operations, including artificial intelligence and machine learning applications, thanks to integration with a large number of advanced database solutions including Hadoop, Amazon AWS, My SQL, SAP and Teradata. Extensive research and testing has gone into enabling Tableau to create graphics and visualizations as efficiently as possible, and to make them easy for humans to understand
+
+
+
+Qlikview
+Qlik with their Qlikview tool is the other major player in this space and Tableau’s biggest competitor. The vendor has over 40,000 customer accounts across over 100 countries, and those that use it frequently cite its highly customizable setup and wide feature range as a key advantage. This however can mean that it takes more time to get to grips with and use it to its full potential. In addition to its data visualization capabilities Qlikview offers powerful business intelligence, analytics and enterprise reporting capabilities and I particularly like the clean and clutter-free user interface. Qlikview is commonly used alongside its sister package, Qliksense, which handles data exploration and discovery. There is also a strong community and there are plenty of third-party resources available online to help new users understand how to integrate it in their projects
+
+Fusion Charts
+This is a very widely-used, JavaScript-based charting and visualization package that has established itself as one of the leaders in the paid-for market. It can produce 90 different chart types and integrates with a large number of platforms and frameworks giving a great deal of flexibility. One feature that has helped make Fusion Charts very popular is that rather than having to start each new visualization from scratch, users can pick from a range of “live” example templates, simply plugging in their own data sources as needed
+High charts
+Like Fusion Charts this also requires a license for commercial use, although it can be used freely as a trial, non-commercial or for personal use. Its website claims that it is used by 72 of the world’s 100 largest companies and it is often chosen when a fast and flexible solution must be rolled out, with a minimum need for specialist data visualization training before it can be put to work. A key to its success has been its focus on cross-browser support, meaning anyone can view and run its interactive visualizations, which is not always true with newer platforms.
+Data wrapper
+Data wrapper is increasingly becoming a popular choice, particularly among media organizations which frequently use it to create charts and present statistics. It has a simple, clear interface that makes it very easy to upload csv data and create straightforward charts, and also maps, that can quickly be embedded into reports.
+Plotly
+Plotly enables more complex and sophisticated visualizations, thanks to its integration with analytics-oriented programming languages such as Python, R and Matlab. It is built on top of the open source d3.js visualization libraries for JavaScript, but this commercial package (with a free non-commercial license available) adds layers of user-friendliness and support as well as inbuilt support for APIs such as Salesforce.
+Sisense
+Sisense provides a full stack analytics platform but its visualization capabilities provide a simple-to-use drag and drop interface which allow charts and more complex graphics, as well as interactive visualizations, to be created with a minimum of hassle. It enables multiple sources of data to be gathered into one easily accessed repositories where it can be queried through dashboards instantaneously, even across Big Data-sized sets. Dashboards can then be shared across organizations ensuring even non technically-minded staff can find the answers they need to their problems.
+I will be updating this list at least on an annual basis so let me know if you know of any other great tool you would include here.
+
+
+
+
+
+
+
+The role of hypervisor
+
+
+A hypervisor or virtual machine monitor (VMM) is computer software, firmware or hardware that creates and runs virtual machines. A computer on which a hypervisor runs one or more virtual machines is called a host machine, and each virtual machine is called a guest machine. The hypervisor presents the guest operating systems with a virtual operating platform and manages the execution of the guest operating systems. Multiple instances of a variety of operating systems may share the virtualized hardware resources: for example Linux, Windows and macOS instances can all run on a single physical x86 machine. This contrasts with operating – system level virtualization, where all instances (usually called containers) must share a single kernel, though the guest operating systems can differ in user space such as different Linux distributions with the same kernel.
+The term hypervisor is a variant of supervisor, a traditional term for the kernel of an operating system. the hypervisor is the supervisor of the supervisor, with hyper- used as a stronger variant of super-The term dates to circa 1970;[2] in the earlier CP/CMS (1967) system the term Control Program was used instead.
+
+
+
+emulation is different from VMs
+
+For many, emulation and virtualization go hand in hand, but there are actually some really key differences. When a device is being emulated, a software-based construct has replaced a hardware component. Its possible to run a complete virtual machine on an emulated server.
+
+
+
+VMs and containers/dockers
+
+
+Multiple containers can run on the same machine and share the OS kernel with other containers, each running as isolated processes in user space. Containers take up less space than VMs (container images are typically tens of MBs in size), can handle more applications and require fewer VMs and Operating systems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Athukorala A.A.P..S
+IT17091862
+
+
+
+
+
+
+
+
+
+
